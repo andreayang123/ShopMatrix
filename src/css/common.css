@@ -1,0 +1,106 @@
+/*定义公共css配置*/
+body, div, ul {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Microsoft YaHei";
+}
+
+select {
+    border: 0;
+    width: 60px;
+    background: transparent;
+    font-size: 12px;
+}
+
+.sm-main {
+    width: 60%;
+}
+
+.sm-header-h {
+    height: 30px;
+}
+
+.sm-fonts {
+    font-size: 12px;
+}
+
+.mid-fonts {
+    font-size: 14px;
+}
+
+.lar-fonts {
+    font-size: 18px;
+}
+
+/*定义页眉css配置*/
+.header-nav-wrapper {
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.sm-header {
+    display: inline-block;
+    min-width: 1000px;
+}
+
+.header-address-container {
+    float: left;
+    width: 100px;
+    line-height: 30px;
+}
+
+.header-nav-container {
+    float: right;
+    width: 800px;
+    line-height: 30px;
+}
+
+#top-address {
+
+}
+
+.top-nav-list {
+    list-style: none;
+    padding-left: 50px;
+}
+
+ul.top-nav-list .item {
+    float: left;
+    padding: 0px 10px;
+}
+
+li.item .item-label {
+    margin-right: 5px;
+}
+
+ul.top-nav-list .item:hover {
+    color: #f10180;
+    cursor: pointer;
+}
+
+li.item:hover .ico-triangle {
+    position: relative;
+    top: -10px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    border-style: solid;
+    height: 30px;
+    border-color: transparent transparent #f10180 transparent;
+}
+
+.oblique-line {
+    margin-left: 10px;
+    color: #000;
+}
+
+.ico-triangle {
+    margin-top: 5px;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 10px;
+    border-width: 5px;
+    border-color: #999 transparent transparent transparent;
+    border-style: solid dotted dotted dashed;
+}
